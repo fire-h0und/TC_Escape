@@ -1,0 +1,20 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435600" SurfaceType="" Diffuse="0.52549022,0.53333336,0.57647061" Specular="2.5826378,3.1677666,3.4704192" Emissive="0.019607844,0.019607844,0.019607844" Shininess="10" Opacity="1" AlphaTest="0.396" GlowAmount="0.5">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_courthouse.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_courthouse_spec.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_courthouse_nrm.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/cm_clouds.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Decal" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_courthouseLight.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="1" FresnelScale="1" FresnelBias="0.5" AmbientMultiplier="0"/>
+</Material>

@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Material_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_concrete" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0.45098042,0.45098042,0.45098042" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/Textures/Arena/tile_lock_big.DDS">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/Textures/Arena/tile_lock_big_SPC.DDS">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/Textures/Arena/tile_lock_big_NRM.dds">
+     <TexMod TileU="8" TileV="8"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

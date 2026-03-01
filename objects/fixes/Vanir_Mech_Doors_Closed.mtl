@@ -1,0 +1,16 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="ASF_Doors_001_material" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="mat_mech_metal" Diffuse="0.58823532,0.58823532,0.58823532" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/dropships/cl_vanir/vanir_doors.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/objects_mwll/architecture/dropships/cl_vanir/vanir_doors.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass_unbreakable" Diffuse="0.47450984,0.97647065,0.25882354" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="0.99000001" GlowAmount="2" PostEffectType="2">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/textures/neon/fights.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

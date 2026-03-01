@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_unbreakable" Diffuse="0.7843138,0.050980397,0.23529413" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="0.99000001" GlowAmount="2">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/textures/neon/neon_pun4.dds">
+   <TexMod TileU="0.66670001" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.2" TexMod_UOscillatorAmplitude="1"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

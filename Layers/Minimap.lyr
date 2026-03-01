@@ -1,0 +1,213 @@
+<ObjectLayer>
+ <Layer Name="Minimap" GUID="{FFC64E41-7CB3-4FA1-B6DD-880E5CB9C5DA}" Hidden="0" Frozen="0" External="1" Exportable="1">
+  <LayerObjects>
+   <Object Type="Prefab" Layer="Minimap" Id="{C67D6E00-9836-4DDE-A673-B4E99E7E5560}" Name="Prefab5899" Pos="2832.25,1040.125,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Prefab" Layer="Minimap" Id="{13ED1102-91D2-46E1-B76C-83275FA122D7}" Name="Prefab5909" Pos="2831.375,985.5,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Prefab" Layer="Minimap" Id="{9A161707-1B98-4676-A3CA-BFFF0EF11879}" Name="Prefab5902" Pos="2839.5,969.25,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{597BD608-689C-4144-B791-8A456F13ED5B}" Name="Intro1" Pos="1402,2174.5,68" Rotate="-0.087072849,-0.0038016774,-0.043453399,0.99524653" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+    <Properties bEnabled="1"/>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{5BE0E50B-882A-497B-8AEB-5CEA6C401B96}" Name="Prefab5904" Pos="2951.125,929.875,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{EBC39A1E-DD2E-4988-99B1-70F5FB4BD388}" Name="RigidBodyEx3" Pos="1525.75,1299.25,24" Rotate="0.70710671,0,0,0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+    <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="objects/vehicles/us_apc/us_apc.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Physics bActivateOnDamage="1" bCanBreakOthers="0" Density="0" Mass="45000" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="1" water_density="1200" water_resistance="1000"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="Minimap" Id="{E3F1B31E-F4C2-494F-9C72-B019F7C06CDB}" Name="HPG_Capture" Pos="2298.5,1463.625,21.6" ColorRGB="3198776" Width="0" Height="55" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-96.625,-1.625,-9.25"/>
+     <Point Pos="-96.5,-405.375,-20.849998"/>
+     <Point Pos="-7.625,-407.125,-20.349998"/>
+     <Point Pos="-4.5,-352.75,-13.349998"/>
+     <Point Pos="-69.75,-353.25,-14.999998"/>
+     <Point Pos="-68.875,-247.375,-13.375"/>
+     <Point Pos="-45.125,-245.75,-12.75"/>
+     <Point Pos="-45.25,-222.5,-12.85"/>
+     <Point Pos="-75.875,-222,-12.975"/>
+     <Point Pos="-77.625,-178.375,-11.725"/>
+     <Point Pos="-46.25,-177.5,-12.725"/>
+     <Point Pos="-43.625,-154.375,-11.35"/>
+     <Point Pos="-80,-117.625,-8.2250004"/>
+     <Point Pos="-57.125,-89.875,-6.9750004"/>
+     <Point Pos="-81.75,-66.75,-8.7250004"/>
+     <Point Pos="-38.625,-23.125,-6.7250004"/>
+     <Point Pos="-9.75,-50.125,-0.85000038"/>
+     <Point Pos="-9.375,-64.75,-1.6000004"/>
+     <Point Pos="-34.125,-90.5,-5.2250004"/>
+     <Point Pos="-8,-120.875,-4.3500004"/>
+     <Point Pos="-14.125,-132.625,-6.6000004"/>
+     <Point Pos="-41.5,-155.125,-10.975"/>
+     <Point Pos="-42.25,-177.25,-12.475"/>
+     <Point Pos="-36.875,-178.625,-11.85"/>
+     <Point Pos="-38.5,-222.625,-12.6"/>
+     <Point Pos="-43.125,-223,-12.725"/>
+     <Point Pos="-42.125,-245.875,-12.625"/>
+     <Point Pos="-1.875,-248.125,-11.375"/>
+     <Point Pos="1.375,-106.75,-2.5"/>
+    </Points>
+    <Entities>
+     <Entity Id="{81ED3173-BFF9-4287-9F53-53CF3490AFA7}"/>
+    </Entities>
+   </Object>
+   <Object Type="Shape" Layer="Minimap" Id="{0D598C22-38E9-4C72-AE04-186DD2D8536A}" Name="Aurora_Shipwreck_Capture" Pos="1364.5,1983.25,5.0000544" Rotate="1,-5.5511151e-016,-2.2351742e-008,-9.3132257e-010" ColorRGB="4514588" Width="0" Height="55" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="20.625,15.75,11.75"/>
+     <Point Pos="62.875,-19.75,13.375"/>
+     <Point Pos="125.375,-11.75,3.25"/>
+     <Point Pos="184.25,106,15.5"/>
+     <Point Pos="227.375,85.5,11.125"/>
+     <Point Pos="178.25,10.875,3.75"/>
+     <Point Pos="174.875,-53.25,5.375"/>
+     <Point Pos="101.875,-46.125,5.625"/>
+     <Point Pos="-1.25,-40.375,2.875"/>
+    </Points>
+    <Entities>
+     <Entity Id="{26B9F7D4-10C9-49FC-BFCE-F3835BAAB206}"/>
+    </Entities>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{EAE53A26-0977-47C4-BEBB-C67B32A79E25}" Name="Prefab5862" Pos="1068.4968,1221.3766,22" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{676A61EF-FF57-4C60-8DDA-934BF26B443C}" PrefabName="props.physicalized_objects.shopping_trolley"/>
+   <Object Type="Entity" Layer="Minimap" Id="{1451B02D-193E-4CB9-B8DA-2F58A96EFBDB}" Name="Intro3" Pos="2725.625,2095.875,96.625" Rotate="0.38268322,0,0,0.92387962" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+    <Properties bEnabled="1"/>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{6E80CB35-FCEB-46AA-A985-2245F39DF79A}" Name="Prefab5905" Pos="2952.625,1035.375,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Shape" Layer="Minimap" Id="{F3F70948-3576-4EA5-9AE3-EA3DF98956FC}" Name="Play_area" Pos="2862.875,2254.875,-30" ColorRGB="255" Width="2" Height="800" AreaId="2" GroupId="1" Priority="2" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="35.875,-390.75,28.249998"/>
+     <Point Pos="40.25,-658.375,28.249998"/>
+     <Point Pos="146.125,-777.375,28.249998"/>
+     <Point Pos="139.75,-1370.625,28.25"/>
+     <Point Pos="-242,-1363.25,28.25"/>
+     <Point Pos="-353.375,-1134.875,28.25"/>
+     <Point Pos="-515,-1137.25,28.25"/>
+     <Point Pos="-517.125,-1292.125,28.25"/>
+     <Point Pos="-719,-1294.875,28.25"/>
+     <Point Pos="-857.875,-1276.25,15"/>
+     <Point Pos="-1304.6436,-1142.9664,28.25"/>
+     <Point Pos="-1480.875,-1196.5,29"/>
+     <Point Pos="-1528.375,-1214,28.25"/>
+     <Point Pos="-1634.875,-1268.625,26.125"/>
+     <Point Pos="-1633.75,-1355.875,28.25"/>
+     <Point Pos="-1742.375,-1362,28.25"/>
+     <Point Pos="-1972,-1363.375,28.25"/>
+     <Point Pos="-1975.625,-1135.25,28.25"/>
+     <Point Pos="-1823.5,-1139.875,29"/>
+     <Point Pos="-1784.875,-1101.625,29"/>
+     <Point Pos="-1799.5,-1072,29.875"/>
+     <Point Pos="-1800.8918,-715.46143,29"/>
+     <Point Pos="-1609.2587,-718.75195,29"/>
+     <Point Pos="-1600.4653,-649.07593,29"/>
+     <Point Pos="-1600.1793,-576.43152,28.25"/>
+     <Point Pos="-1711.9117,-473.77454,28.25"/>
+     <Point Pos="-1709.4656,-46.562744,28.25"/>
+     <Point Pos="-1511.8395,-36.993408,28.25"/>
+     <Point Pos="-1383.417,122.72827,28.25"/>
+     <Point Pos="-1190.552,115.94067,28.25"/>
+     <Point Pos="-594.67603,241.10547,28.25"/>
+     <Point Pos="-527.25,133.5,28.25"/>
+     <Point Pos="-377.875,47.125,24"/>
+     <Point Pos="-218.875,-32.875,26"/>
+     <Point Pos="-219.875,-5.875,23"/>
+    </Points>
+    <Entities>
+     <Entity Id="{D2E86FE7-4816-4288-ADC5-D319ABF5EE8C}"/>
+    </Entities>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{45FECC52-8EAC-4382-B846-885520CFF040}" Name="Prefab5900" Pos="2783.25,1042.625,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{07B93C53-2D39-4059-9173-6701E2E2F210}" Name="RigidBodyEx1" Pos="2754.25,960.75,47.5" Rotate="0.70710671,0,0,0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+    <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Objects/vehicles/asian_helicopter/asian_helicopter_brush_lg_open.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Physics bActivateOnDamage="1" bCanBreakOthers="0" Density="0" Mass="15000" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="1" water_density="1500" water_resistance="1000"/>
+      <Simulation damping="0.1" bFixedDamping="1" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="1"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="Minimap" Id="{D1D1305F-4D55-4961-9B2A-100F0F4FEDD1}" Name="Capture_VTOL_Base" Pos="2786.375,1045.625,22.975" ColorRGB="1827892" Width="0" Height="55" AreaId="15" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-0.375,-74.375,0"/>
+     <Point Pos="56,-73.25,0"/>
+     <Point Pos="54.875,-113.5,-0.125"/>
+     <Point Pos="166.625,-113.75,-0.5"/>
+     <Point Pos="169.125,-6.75,2.625"/>
+     <Point Pos="126.75,-5.375,0"/>
+     <Point Pos="124.25,-56.25,0"/>
+     <Point Pos="77.25,-75.25,0"/>
+     <Point Pos="47,-57.375,0"/>
+     <Point Pos="48.75,-2,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{0DF30918-407D-4645-A283-38037D99D8B0}"/>
+    </Entities>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{5DAFF76F-8C01-4E01-ACC5-E7EEEE279A5A}" Name="Prefab5903" Pos="2839.625,930.125,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{81ED3173-BFF9-4287-9F53-53CF3490AFA7}" Name="CapturePoint_HPG" Pos="2260,1350,140" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="CapturePoint">
+    <Properties CaptureRequirement="0" ClanWeight="1" DimX="0" DimY="0" DimZ="0" IsWeight="1" sStartingTeam="" sType="strategicpoint"/>
+    <EntityLinks>
+     <Link TargetId="{2FA2EC8D-491C-4CCA-A43F-01C680D4494C}" Name="capture"/>
+     <Link TargetId="{3DC45272-98FC-423F-8875-AA83E27DA71E}" Name="capture"/>
+     <Link TargetId="{9EE1D69A-3CDE-46CC-96CF-0533FBAF9539}" Name="capture"/>
+     <Link TargetId="{4AC105BC-F95A-41C9-B1CB-390E9C53E13B}" Name="capture"/>
+    </EntityLinks>
+   </Object>
+   <Object Type="Entity" Layer="Minimap" Id="{76DE1994-0B05-477E-860F-050FAAA89A22}" Name="Forbidden_Inner_Area1" Pos="2336,1683,170.125" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ForbiddenArea">
+    <Properties DamagePerSecond="250" Delay="50" bEnabled="1" bReversed="0" bShowWarning="1" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="Minimap" Id="{3AB8BEA8-C81D-4849-BA31-65E654E7A33C}" Name="Forbidden_Inner_Area2" Pos="1214.125,1444.25,137.89394" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ForbiddenArea">
+    <Properties DamagePerSecond="250" Delay="50" bEnabled="1" bReversed="0" bShowWarning="1" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="Minimap" Id="{100A10AB-BAF1-4573-9641-B7D7DAF7B7D0}" Name="Intro2" Pos="2782.125,935.25,77" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+    <Properties bEnabled="1"/>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{868557AB-F722-4527-8E70-6E01EF5D8D25}" Name="Prefab5908" Pos="2861.25,967.5,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Prefab" Layer="Minimap" Id="{B8431CAF-4507-422B-A843-2048D5F3CD2C}" Name="Prefab5863" Pos="1400,1014,22" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{676A61EF-FF57-4C60-8DDA-934BF26B443C}" PrefabName="props.physicalized_objects.shopping_trolley"/>
+   <Object Type="Prefab" Layer="Minimap" Id="{D5D098B1-3FBB-4B9A-B8CF-2FFB7AF72103}" Name="Prefab5906" Pos="2911.875,1035.875,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{4AC105BC-F95A-41C9-B1CB-390E9C53E13B}" Name="Faux_Factory_HPG_turrets" Pos="2260,1350,115" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Factory">
+    <Properties basePowerLevel="0" buyAreaId="0" bDisableRepairs="1" factoryClass="" bGeneratePower="0" bIsForwardBase="1" objModel="objects/objects_mwll/weapons/modular_weapons/guns/ac5_dummy.cgf" nPowerIndex="1" bPowerStorage="0" nQueueSize="1" bRepairAerosInBuyZone="0" serviceAreaId="0" bShowOnMinimap="1" szName="" teamName="" Vehicles="">
+     <buyOptions bAerospaceCL="0" bAerospaceIS="0" bAmmo="0" bArtilleryCL="0" bArtilleryIS="0" bAssaultMechsCL="0" bAssaultMechsIS="0" bHeavyMechsCL="0" bHeavyMechsIS="0" bHovercraftsCL="0" bHovercraftsIS="0" bLightMechsCL="0" bLightMechsIS="0" bMediumMechsCL="0" bMediumMechsIS="0" bSvtolsCL="0" bSvtolsIS="0" bTanksCL="0" bTanksIS="0" bVtolsCL="0" bVtolsIS="0" bWeapons="0"/>
+     <Slot1 AreaId="11" CloseAnimation="" bEnabled="1" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot2 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot3 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot4 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot5 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot6 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot7 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Slot8 AreaId="11" CloseAnimation="" bEnabled="0" OpenAnimation="" SpawnHelperName="" bUseEntitySpawnHelper="0" VehicleAreaId="11"/>
+     <Sounds sndBusy="" sndIdle="" sndSlotClose="" sndSlotOpen="" sndSlotReady="" sndSlotStart=""/>
+    </Properties>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{246755C8-E286-48B9-8672-66FB8E92952D}" Name="Prefab5907" Pos="2907.875,986.5,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{16CAC3D9-E098-4CA7-9712-257108AADBF8}" Name="Intro4" Pos="1488.75,1414.5,41" Rotate="-0.2588191,0,0,0.96592581" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+    <Properties bEnabled="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Minimap" Id="{D2E86FE7-4816-4288-ADC5-D319ABF5EE8C}" Name="Forbidden_Outer_Bounds" Pos="2411.375,2155,170.125" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ForbiddenArea">
+    <Properties DamagePerSecond="500" Delay="25" bEnabled="1" bReversed="1" bShowWarning="1" teamName=""/>
+    <EntityLinks>
+     <Link TargetId="{F3F70948-3576-4EA5-9AE3-EA3DF98956FC}" Name="NewLink"/>
+    </EntityLinks>
+   </Object>
+   <Object Type="Prefab" Layer="Minimap" Id="{B70A56EA-83A9-42F1-BF09-5BF4FA910570}" Name="Prefab5901" Pos="2790.625,968.625,46.25" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+   <Object Type="Entity" Layer="Minimap" Id="{46538DED-A0D5-40AA-A37B-AD8792B21FE0}" Name="RigidBodyEx4" Pos="1525.75,1291.5,24" Rotate="0.70710671,0,0,0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+    <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="objects/vehicles/us_apc/us_apc.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Physics bActivateOnDamage="1" bCanBreakOthers="0" Density="0" Mass="45000" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="1" water_density="1200" water_resistance="1000"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Minimap" Id="{8CFE4DF9-793A-4A8A-96A1-FA32DB2E1804}" Name="RigidBodyEx2" Pos="2754.25,998.75,47.5" Rotate="0.70710671,0,0,0.70710683" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+    <Properties bAutoGenAIHidePts="0" bCanShatter="0" bFreezable="0" object_Model="Objects/vehicles/asian_helicopter/asian_helicopter_brush_lg_open.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="0" Mass="15000" bPhysicalize="1" bPushableByPlayers="0" bResting="0" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="1" water_density="1500" water_resistance="1000"/>
+      <Simulation damping="0.1" bFixedDamping="1" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="1"/>
+     </Physics>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

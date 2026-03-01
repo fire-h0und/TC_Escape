@@ -1,0 +1,11 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="272629760" SurfaceType="mat_concrete" Diffuse="0.58431375,0.58431375,0.58431375" Specular="0.80392164,0.80392164,0.80392164" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/objects_mwll/unique_level_assets/harvest/civilian/capellan/textures/concretebasebare.dds">
+   <TexMod TileU="0.25" TileV="0.25"/>
+  </Texture>
+  <Texture Map="Normalmap" File="objects/objects_mwll/unique_level_assets/harvest/civilian/capellan/textures/concretebasebare_ddn.dds">
+   <TexMod TileU="0.25" TileV="0.25"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

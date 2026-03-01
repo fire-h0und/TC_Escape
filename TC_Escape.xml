@@ -1,0 +1,8 @@
+<MetaData>
+	<MiniMap Filename="minimap.jpg" startX="878.572266" startY="830.517212" endX="2998.572266" endY="2950.517090"/>
+  	<Gamerules MP1="TeamSolarisArena" MP2="TerrainControl" MP3="TestofStrength"/>
+	<LoadingScreens screen1="loadingscreen.dds"/> 
+	<HeaderText text="TC_Escape"/>
+	<DescriptionText text="Shots have been fired; A VIP was shot down in the Solaris arena. A private dropship crashed into the populated area of the city - probably being chased and shot down too. The Solaris International Police Department is on high alert..."/>
+	<Display Name="TC_Escape"/> 
+</MetaData>

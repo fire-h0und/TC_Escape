@@ -1,0 +1,36 @@
+<Objects>
+ <Object Type="Group" Layer="Main" Id="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Name="Hazard" Pos="1991.75,2644.75,294.75" ColorRGB="65280" MergeGeom="0" Opened="0">
+  <Objects>
+   <Object Type="Entity" Layer="Main" Id="{41B9BE40-1B38-47F4-838F-ADAEFA141E95}" Name="Birds1" Parent="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Pos="-24.139526,0.57910156,-0.032867432" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Birds">
+    <Properties>
+     <Boid nCount="23" gravity_at_death="-9.81" Mass="10" object_Model="objects/characters/animals/turtle/turtle.chr" Size="1.5" SizeRandom="2"/>
+     <Flocking AttractDistMax="10" AttractDistMin="5" bEnableFlocking="0" FactorAlign="1" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="250"/>
+     <Movement FactorAvoidLand="10" FactorHeight="0.1" FactorOrigin="0.1" HeightMax="40" HeightMin="5" MaxAnimSpeed="1.7" SpeedMax="10" SpeedMin="1"/>
+     <Options bActivate="1" bFollowPlayer="1" bNoLanding="0" bObstacleAvoidance="1" Radius="100" VisibilityDist="100"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{E2B7BE29-056B-4DE5-A46C-5AD922015B64}" Name="Hazard1" Parent="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Pos="-23.695068,-0.13378906,2.1395264" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="10" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Hazard">
+    <Properties bEnabled="1">
+     <Damage fDamage="1" eiHazardType="3" bOnlyPlayer="1">
+      <SuitMultipliers fArmorMode="1" fCloakMode="1" fSpeedMode="1" fStrengthMode="1"/>
+     </Damage>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{BB261DA3-7217-460E-93D6-B61EC565A73B}" Name="AmbientVolume45" Parent="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Pos="47.94165,-0.4831543,-2.0588684" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AmbientVolume">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" bLogBattleValue="0" soundName="sounds/environment:soundspots:alien_generator_thermal_tower" OuterRadius="1" bSensitiveToBattle="0"/>
+   </Object>
+   <Object Type="AreaSphere" Layer="Main" Id="{163B9AD8-6A4F-4C08-91F9-9AE66A2A0BC4}" Name="easter" Parent="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Pos="-23.849854,0.014892578,0.049041748" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="20" Radius="100" GroupId="0" Priority="0" Filled="0" EntityClass="AreaSphere">
+    <Entities>
+     <Entity Id="{E2B7BE29-056B-4DE5-A46C-5AD922015B64}"/>
+     <Entity Id="{BB261DA3-7217-460E-93D6-B61EC565A73B}"/>
+    </Entities>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{6C13AD37-4216-445D-AD13-4A405E696F83}" Name="GravitySphere1" Parent="{80A48DE7-C63F-4B84-9C67-1D970B3F75D6}" Pos="-25.059692,-0.16918945,-2.0588684" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GravitySphere">
+    <Properties bActive="1" Damping="0" Radius="55" bUniform="1">
+     <Falloff x="0" y="0" z="55"/>
+     <Gravity x="0" y="0" z="-5"/>
+    </Properties>
+   </Object>
+  </Objects>
+ </Object>
+</Objects>

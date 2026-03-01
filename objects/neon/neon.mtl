@@ -1,0 +1,10 @@
+<Material MtlFlags="256">
+  <SubMaterials>
+    <Material Name="Neon_material" MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass_unbreakable" Diffuse="0.38823533,0.83529419,0.9450981" Specular="0,0.67843139,0.85098046" Emissive="0,0,0" Shininess="5" Opacity="0.99000001" GlowAmount="2">
+      <Textures>
+        <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/TC_escape/Textures/neon/Mechs.dds">
+        </Texture>
+      </Textures>
+    </Material>
+  </SubMaterials>
+</Material>

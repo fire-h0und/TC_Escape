@@ -1,0 +1,20 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435600" SurfaceType="" Diffuse="0.85098046,0.8588236,0.8588236" Specular="3.2470589,3.4666669,3.6862745" Emissive="0.019607844,0.019607844,0.019607844" Shininess="10" Opacity="1" AlphaTest="0.54000002" GlowAmount="0.5">
+ <Textures>
+  <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_offmid_crnr.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_offmid_crnr_spc.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_offmid_crnr_nrm.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/cm_clouds.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Decal" File="mods/mwll/game/levels/multiplayer/TC/TC_Escape/objects/bldgs/bldg_offmid_crnr_lit.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="1" FresnelScale="1" FresnelBias="0.5" AmbientMultiplier="0"/>
+</Material>

@@ -1,0 +1,46 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Concrete_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.68235296,0.58431375,0.45098042" Specular="0.85490203,0.85490203,0.85490203" Emissive="0,0,0" Shininess="15" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/architecture/urban/textures/building_textures/walls/concrete/concretewall013a.dds">
+     <TexMod TileU="32" TileV="32"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Windows_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.68235296,0.58431375,0.45098042" Specular="8,8,8" Emissive="0.15294118,0.14509805,0.12156864" Shininess="30" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_urban_jungle/textures/building_textures/win18.dds">
+     <TexMod TileU="8" TileV="7" OffsetV="0.44"/>
+    </Texture>
+    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_urban_jungle/textures/building_textures/win18_spc.dds">
+     <TexMod TileU="8" TileV="7"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Stone_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.52156866,0.51372552,0.44705886" Specular="0.098039225,0.098039225,0.094117656" Emissive="0,0,0" Shininess="30" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/architecture/bridges/bridge_concrete.dds">
+     <TexMod TileU="24" TileV="24"/>
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/airfield/hangar/hangar_sides_ddn.dds">
+     <TexMod TileU="24" TileV="24"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Grass_material" MtlFlags="132" Shader="Illum" GenMask="268435456" SurfaceType="mat_soil" Diffuse="0.86666673,0.86666673,0.86666673" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/ground_earth_village_var.tif">
+     <TexMod TileU="16" TileV="16"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/ground_earth_village_var_ddn.tif">
+     <TexMod TileU="16" TileV="16"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,13 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Asphalt_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="Edges_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="Bottom_material" MtlFlags="128" SurfaceType="" Diffuse="0.3,0.3,0.3" Specular="0,0,0" Emissive="0,0,0" Shininess="0" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+</Material>

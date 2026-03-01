@@ -1,0 +1,44 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Concrete_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_concrete" Diffuse="0.60784316,0.60784316,0.60784316" Specular="0.12156864,0.12156864,0.12156864" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/cement_1_diffuse.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/cement_1_specular.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/textures_library/1024/cement_1_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Walls_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_concrete" Diffuse="0.61960787,0.61960787,0.61960787" Specular="0.2392157,0.2392157,0.2392157" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/crysis textures/concrete_wall_detail.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/crysis textures/concrete_wall_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Metal_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_sheet" Diffuse="0.37647063,0.44705886,0.47450984" Specular="0.57647061,0.57647061,0.57647061" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/metal_1_dif.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/metal_1_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/textures_library/1024/metal_1_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,18 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="glasstop_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_concrete" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/textures_library/1024/detail_grnd_asphalt_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/textures_library/1024/detail_grnd_asphalt_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/textures_library/1024/detail_grnd_asphalt_nrm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+</Material>

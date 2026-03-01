@@ -1,0 +1,81 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="black metal" MtlFlags="128" Shader="Illum" GenMask="268451872" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0.82745105,0.82745105,0.82745105" Emissive="0,0,0" Shininess="15" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/rustyblackmetal_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="Textures/MWLL_Textures/Detail/paintedmetal_detail_1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="7.3000002" DetailBumpTillingV="7.3000002" DetailBumpScale="1" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="concrete" MtlFlags="128" Shader="Illum" GenMask="268451840" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/concretetile_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="Textures/MWLL_Textures/Detail/Concrete_detail.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="4.1199999" DetailBumpTillingV="4.8699999" DetailBumpScale="1" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="metal" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="1.7803923,1.8588237,1.8980393" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/cleanmetal_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="electricalbox_light" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.42745101,0.42745101,0.42745101" Specular="0.38431376,0.38431376,0.38431376" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/objects_mwll/Architecture/Critical_Structures/MechHangar/textures/plastic_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/objects_mwll/Architecture/Critical_Structures/MechHangar/textures/plastic_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="corragated metal" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0.59215689,0.59215689,0.59215689" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/pipe4_color.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sign" MtlFlags="128" Shader="Illum" GenMask="268435488" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0.21176472,0.21176472,0.21176472" Emissive="0,0,0" Shininess="7" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Escape/textures/billboards/big_billboards002.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="decal" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,0.93725497,0.74901962" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="62.599998">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="mesh" MtlFlags="130" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0.52156866,0.52156866,0.52156866" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.55400002">
+   <Textures>
+    <Texture Map="Diffuse" File="Textures/MWLL_Textures/Base/mesh_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Textures/MWLL_Textures/Base/mesh_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

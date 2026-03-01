@@ -1,0 +1,11 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.70588237,0.70588237,0.70588237" Specular="8,8,8" Emissive="0.10980393,0.10980393,0.10980393" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/textures_library/1024/metal_1_dif.dds">
+   <TexMod TileU="0.5" TileV="20"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/textures_library/1024/crysis textures/metal_dirt_rust_35_spec.dds">
+   <TexMod TileU="0.5" TileV="20"/>
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,191 @@
+<ObjectLayer>
+ <Layer Name="Flags" GUID="{9C283AAF-352B-41B4-8EBB-BF04570E3B3C}" Hidden="0" Frozen="0" External="1" Exportable="1">
+  <LayerObjects>
+   <Object Type="Group" Layer="Flags" Id="{5A84BB13-660A-4AD5-8D2D-203AADE29971}" Name="TC_Flag_group1" Pos="2224.125,1403.75,45" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Flags" Id="{2D37DEDE-7A32-4CE2-8789-FDAD5E81B3AC}" Name="Flag8" Parent="{5A84BB13-660A-4AD5-8D2D-203AADE29971}" Pos="-0.80224609,-0.094238281,-3.0028" Rotate="1,0,0,-5.9604645e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Flag">
+      <Properties animationTemplate="mp_flags_%s_%s" objModel="objects/library/props/flags/mp_flags.cdf" teamName=""/>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{ED75D518-9743-45CA-91EA-E42D184976BC}" Name="Solid3353" Parent="{5A84BB13-660A-4AD5-8D2D-203AADE29971}" Pos="0.69775391,0.030761719,-3.2528" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-1.296875,0.089538574,10.033478" p2="-1.296875,-0.33959961,10.033478" p3="-1.296875,-0.33959961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.33953857,10.033478" p2="0.453125,0.33953857,10.033478" p3="0.453125,0.33953857,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.2966309,-0.33959961,10.033478" p2="1.2966309,0.089538574,10.033478" p3="1.2966309,0.089538574,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.46459961,10.033478" p2="0.79663086,-0.46459961,10.033478" p3="0.79663086,-0.46459961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.33959961,0.40847778" p2="0.453125,0.089538574,0.40847778" p3="0.79663086,0.089538574,0.40847778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.089538574,-0.53349304" p2="0.453125,0.089538574,-0.53349304" p3="0.453125,-0.33959961,-0.53349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{FFA992D6-B6E6-432D-A9AC-EB173830393C}" Name="Solid3354" Parent="{5A84BB13-660A-4AD5-8D2D-203AADE29971}" Pos="-0.67724609,-0.094238281,2.1222" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.171875,0.21453857,5.1584778" p2="-0.171875,-0.21459961,5.1584778" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="-0.171875,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,-0.21459961,5.1584778" p2="0.17163086,0.21453857,5.1584778" p3="0.17163086,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="0.17163086,-0.21459961,5.1584778" p3="0.17163086,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="0.17163086,0.21453857,5.1584778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,-5.158493" p2="-0.171875,0.21453857,-5.158493" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Group" Layer="Flags" Id="{6AC29AF6-8B85-43A2-AED9-03F7DB0E065F}" Name="flag9" Parent="{5A84BB13-660A-4AD5-8D2D-203AADE29971}" Pos="0.99804688,-0.064208984,4.1638184" Scale="0.5,0.5,0.5" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Entity" Layer="Flags" Id="{87F8A100-EFCF-4492-AC8D-9850804BE41C}" Name="TCFlag22" Parent="{6AC29AF6-8B85-43A2-AED9-03F7DB0E065F}" Pos="0,0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Flags" Id="{D6E03518-7186-4E1A-BBD1-9A79BB40A4D3}" Name="TCFlag23" Parent="{6AC29AF6-8B85-43A2-AED9-03F7DB0E065F}" Pos="0,-0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+      </Objects>
+     </Object>
+    </Objects>
+   </Object>
+   <Object Type="Group" Layer="Flags" Id="{D3B1AB15-3C17-428B-9E47-E8FF404DAAD0}" Name="TC_Flag_group3" Pos="2271.125,1195.75,56" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Flags" Id="{995C9C22-05BF-4DEE-9462-72EABE3B7599}" Name="Flag12" Parent="{D3B1AB15-3C17-428B-9E47-E8FF404DAAD0}" Pos="-0.80224609,-0.094238281,-3.0028" Rotate="1,0,0,-5.9604645e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Flag">
+      <Properties animationTemplate="mp_flags_%s_%s" objModel="objects/library/props/flags/mp_flags.cdf" teamName=""/>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{2BFF7F34-B34B-4968-8514-B7E77EAE00A3}" Name="Solid3357" Parent="{D3B1AB15-3C17-428B-9E47-E8FF404DAAD0}" Pos="0.69775391,0.030761719,-3.2528" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-1.296875,0.089538574,10.033478" p2="-1.296875,-0.33959961,10.033478" p3="-1.296875,-0.33959961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.33953857,10.033478" p2="0.453125,0.33953857,10.033478" p3="0.453125,0.33953857,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.2966309,-0.33959961,10.033478" p2="1.2966309,0.089538574,10.033478" p3="1.2966309,0.089538574,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.46459961,10.033478" p2="0.79663086,-0.46459961,10.033478" p3="0.79663086,-0.46459961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.33959961,0.40847778" p2="0.453125,0.089538574,0.40847778" p3="0.79663086,0.089538574,0.40847778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.089538574,-0.53349304" p2="0.453125,0.089538574,-0.53349304" p3="0.453125,-0.33959961,-0.53349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{A236C7E5-1254-428E-999B-DA32AFDC8C74}" Name="Solid3358" Parent="{D3B1AB15-3C17-428B-9E47-E8FF404DAAD0}" Pos="-0.67724609,-0.094238281,2.1222" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.171875,0.21453857,5.1584778" p2="-0.171875,-0.21459961,5.1584778" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="-0.171875,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,-0.21459961,5.1584778" p2="0.17163086,0.21453857,5.1584778" p3="0.17163086,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="0.17163086,-0.21459961,5.1584778" p3="0.17163086,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="0.17163086,0.21453857,5.1584778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,-5.158493" p2="-0.171875,0.21453857,-5.158493" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Group" Layer="Flags" Id="{DC95ACB5-78D3-4669-A8C2-6FD24B9093E4}" Name="flag13" Parent="{D3B1AB15-3C17-428B-9E47-E8FF404DAAD0}" Pos="0.99804688,-0.064208984,4.1638184" Scale="0.5,0.5,0.5" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Entity" Layer="Flags" Id="{3BDDA407-5B9F-47DB-BC6F-D9C3D4A637CF}" Name="TCFlag26" Parent="{DC95ACB5-78D3-4669-A8C2-6FD24B9093E4}" Pos="0,0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Flags" Id="{83D35FE3-DC4B-4C69-B029-46CF77075FFB}" Name="TCFlag27" Parent="{DC95ACB5-78D3-4669-A8C2-6FD24B9093E4}" Pos="0,-0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+      </Objects>
+     </Object>
+    </Objects>
+   </Object>
+   <Object Type="Group" Layer="Flags" Id="{681A563E-E550-4266-BE5D-E66E21814342}" Name="TC_Flag_group" Pos="1522.125,1961.75,38" ColorRGB="65280" MergeGeom="0" Opened="1">
+    <Objects>
+     <Object Type="Entity" Layer="Flags" Id="{BE991207-C58D-43DA-8E25-643087D181AF}" Name="Flag7" Parent="{681A563E-E550-4266-BE5D-E66E21814342}" Pos="-0.80224609,-0.094238281,-3.0028" Rotate="1,0,0,-5.9604645e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Flag">
+      <Properties animationTemplate="mp_flags_%s_%s" objModel="objects/library/props/flags/mp_flags.cdf" teamName=""/>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{586E285F-2CDB-4941-BF47-263160B8D9E6}" Name="Solid935" Parent="{681A563E-E550-4266-BE5D-E66E21814342}" Pos="0.69775391,0.030761719,-3.2528" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-1.296875,0.089538574,10.033478" p2="-1.296875,-0.33959961,10.033478" p3="-1.296875,-0.33959961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.33953857,10.033478" p2="0.453125,0.33953857,10.033478" p3="0.453125,0.33953857,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.2966309,-0.33959961,10.033478" p2="1.2966309,0.089538574,10.033478" p3="1.2966309,0.089538574,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.46459961,10.033478" p2="0.79663086,-0.46459961,10.033478" p3="0.79663086,-0.46459961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.33959961,0.40847778" p2="0.453125,0.089538574,0.40847778" p3="0.79663086,0.089538574,0.40847778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.089538574,-0.53349304" p2="0.453125,0.089538574,-0.53349304" p3="0.453125,-0.33959961,-0.53349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{37BCFF95-27F3-4478-9814-426542A059D6}" Name="Solid936" Parent="{681A563E-E550-4266-BE5D-E66E21814342}" Pos="-0.67724609,-0.094238281,2.1222" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.171875,0.21453857,5.1584778" p2="-0.171875,-0.21459961,5.1584778" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="-0.171875,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,-0.21459961,5.1584778" p2="0.17163086,0.21453857,5.1584778" p3="0.17163086,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="0.17163086,-0.21459961,5.1584778" p3="0.17163086,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="0.17163086,0.21453857,5.1584778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,-5.158493" p2="-0.171875,0.21453857,-5.158493" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Group" Layer="Flags" Id="{DDC70582-A6D6-42CF-949A-88773AA211FB}" Name="flag" Parent="{681A563E-E550-4266-BE5D-E66E21814342}" Pos="0.99804688,-0.064208984,4.1638184" Scale="0.5,0.5,0.5" ColorRGB="65280" MergeGeom="0" Opened="1">
+      <Objects>
+       <Object Type="Entity" Layer="Flags" Id="{B71A5F91-ED00-466D-B919-A5AD7F32D079}" Name="TCFlag21" Parent="{DDC70582-A6D6-42CF-949A-88773AA211FB}" Pos="0,0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Flags" Id="{633872A2-661E-469C-A691-1E3FD2D9977E}" Name="TCFlag20" Parent="{DDC70582-A6D6-42CF-949A-88773AA211FB}" Pos="0,-0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+      </Objects>
+     </Object>
+    </Objects>
+   </Object>
+   <Object Type="Group" Layer="Flags" Id="{C8B13441-E5B9-4CEB-8A35-2D1699102B27}" Name="TC_Flag_group2" Pos="2255.125,1311.75,45" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Flags" Id="{48593856-4715-4962-A396-D235BBE325D4}" Name="Flag10" Parent="{C8B13441-E5B9-4CEB-8A35-2D1699102B27}" Pos="-0.80224609,-0.094238281,-3.0028" Rotate="1,0,0,-5.9604645e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Flag">
+      <Properties animationTemplate="mp_flags_%s_%s" objModel="objects/library/props/flags/mp_flags.cdf" teamName=""/>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{69C54BB1-93D8-423A-8CCD-0A9EDCC1DD2B}" Name="Solid3355" Parent="{C8B13441-E5B9-4CEB-8A35-2D1699102B27}" Pos="0.69775391,0.030761719,-3.2528" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-1.296875,0.089538574,10.033478" p2="-1.296875,-0.33959961,10.033478" p3="-1.296875,-0.33959961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.33953857,10.033478" p2="0.453125,0.33953857,10.033478" p3="0.453125,0.33953857,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.2966309,-0.33959961,10.033478" p2="1.2966309,0.089538574,10.033478" p3="1.2966309,0.089538574,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.46459961,10.033478" p2="0.79663086,-0.46459961,10.033478" p3="0.79663086,-0.46459961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.33959961,0.40847778" p2="0.453125,0.089538574,0.40847778" p3="0.79663086,0.089538574,0.40847778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.089538574,-0.53349304" p2="0.453125,0.089538574,-0.53349304" p3="0.453125,-0.33959961,-0.53349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{51D243F0-AF49-424D-BE1E-717FED54899F}" Name="Solid3356" Parent="{C8B13441-E5B9-4CEB-8A35-2D1699102B27}" Pos="-0.67724609,-0.094238281,2.1222" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.171875,0.21453857,5.1584778" p2="-0.171875,-0.21459961,5.1584778" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="-0.171875,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,-0.21459961,5.1584778" p2="0.17163086,0.21453857,5.1584778" p3="0.17163086,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="0.17163086,-0.21459961,5.1584778" p3="0.17163086,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="0.17163086,0.21453857,5.1584778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,-5.158493" p2="-0.171875,0.21453857,-5.158493" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Group" Layer="Flags" Id="{B4A210C7-1610-4707-9FFB-4E9C12D74B30}" Name="flag11" Parent="{C8B13441-E5B9-4CEB-8A35-2D1699102B27}" Pos="0.99804688,-0.064208984,4.1638184" Scale="0.5,0.5,0.5" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Entity" Layer="Flags" Id="{013B24BA-CC47-4F5D-8BB0-C6146D03EEE6}" Name="TCFlag24" Parent="{B4A210C7-1610-4707-9FFB-4E9C12D74B30}" Pos="0,0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Flags" Id="{0617E8B1-7AD5-43E7-9742-66B9F368F6EF}" Name="TCFlag25" Parent="{B4A210C7-1610-4707-9FFB-4E9C12D74B30}" Pos="0,-0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+      </Objects>
+     </Object>
+    </Objects>
+   </Object>
+   <Object Type="Group" Layer="Flags" Id="{71C625AA-F486-41A5-8BE0-A7E6DA4DA95A}" Name="TC_Flag_group4" Pos="2269.125,1140.75,48" ColorRGB="65280" MergeGeom="0" Opened="0">
+    <Objects>
+     <Object Type="Entity" Layer="Flags" Id="{2275DAE2-3154-4B04-9C27-F29CA0E07306}" Name="Flag14" Parent="{71C625AA-F486-41A5-8BE0-A7E6DA4DA95A}" Pos="-0.80224609,-0.094238281,-3.0028" Rotate="1,0,0,-5.9604645e-008" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="1" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Flag">
+      <Properties animationTemplate="mp_flags_%s_%s" objModel="objects/library/props/flags/mp_flags.cdf" teamName=""/>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{AFEC920A-59A1-484B-9D59-FD5EDC69FC47}" Name="Solid3359" Parent="{71C625AA-F486-41A5-8BE0-A7E6DA4DA95A}" Pos="0.69775391,0.030761719,-3.2528" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-1.296875,0.089538574,10.033478" p2="-1.296875,-0.33959961,10.033478" p3="-1.296875,-0.33959961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.33953857,10.033478" p2="0.453125,0.33953857,10.033478" p3="0.453125,0.33953857,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="1.2966309,-0.33959961,10.033478" p2="1.2966309,0.089538574,10.033478" p3="1.2966309,0.089538574,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.46459961,10.033478" p2="0.79663086,-0.46459961,10.033478" p3="0.79663086,-0.46459961,-0.28349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.453125,-0.33959961,0.40847778" p2="0.453125,0.089538574,0.40847778" p3="0.79663086,0.089538574,0.40847778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.79663086,0.089538574,-0.53349304" p2="0.453125,0.089538574,-0.53349304" p3="0.453125,-0.33959961,-0.53349304" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Solid" Layer="Flags" Id="{675C1198-92B0-41D2-AEAD-1C659CFFBB8D}" Name="Solid3360" Parent="{71C625AA-F486-41A5-8BE0-A7E6DA4DA95A}" Pos="-0.67724609,-0.094238281,2.1222" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+      <Brush>
+       <Face p1="-0.171875,0.21453857,5.1584778" p2="-0.171875,-0.21459961,5.1584778" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="-0.171875,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,-0.21459961,5.1584778" p2="0.17163086,0.21453857,5.1584778" p3="0.17163086,0.21453857,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="0.17163086,-0.21459961,5.1584778" p3="0.17163086,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="-0.171875,-0.21459961,5.1584778" p2="-0.171875,0.21453857,5.1584778" p3="0.17163086,0.21453857,5.1584778" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+       <Face p1="0.17163086,0.21453857,-5.158493" p2="-0.171875,0.21453857,-5.158493" p3="-0.171875,-0.21459961,-5.158493" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+      </Brush>
+     </Object>
+     <Object Type="Group" Layer="Flags" Id="{19952816-FC7C-4637-A50D-24AE480F985E}" Name="flag15" Parent="{71C625AA-F486-41A5-8BE0-A7E6DA4DA95A}" Pos="0.99804688,-0.064208984,4.1638184" Scale="0.5,0.5,0.5" ColorRGB="65280" MergeGeom="0" Opened="0">
+      <Objects>
+       <Object Type="Entity" Layer="Flags" Id="{8DB76A80-C219-453F-B05E-FEBBBE84610E}" Name="TCFlag28" Parent="{19952816-FC7C-4637-A50D-24AE480F985E}" Pos="0,0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="2"/>
+       </Object>
+       <Object Type="Entity" Layer="Flags" Id="{47014FB3-7213-42B4-8784-84509906BB38}" Name="TCFlag29" Parent="{19952816-FC7C-4637-A50D-24AE480F985E}" Pos="0,-0.0021972656,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="TCFlag">
+        <Properties clanMaterial="Objects/objects_mwll/Unique_Level_Assets/sandblasted/Banners/clan_wolf_banner" clanModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" isMaterial="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner_mat" isModel="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" team="1"/>
+       </Object>
+      </Objects>
+     </Object>
+    </Objects>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
